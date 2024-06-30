@@ -1,9 +1,9 @@
 <?php
 
-namespace Bersian\MalaysiaState\Http\Controllers\Api;
+namespace FreshCMS\MalaysiaState\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Bersian\MalaysiaState\Models\MalaysiaState;
+use FreshCMS\MalaysiaState\Models\MalaysiaState;
 use Illuminate\Http\Request;
 
 class MalaysiaStateController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bersian\MalaysiaState\Database\Migrations;
+namespace FreshCMS\MalaysiaState\Database\Migrations;
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

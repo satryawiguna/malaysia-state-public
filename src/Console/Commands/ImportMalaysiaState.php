@@ -1,5 +1,5 @@
 <?php
-namespace Bersian\MalaysiaState\Console\Commands;
+namespace FreshCMS\MalaysiaState\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

@@ -1,5 +1,5 @@
 <?php
-namespace Bersian\MalaysiaState;
+namespace FreshCMS\MalaysiaState;
 
 use Illuminate\Support\ServiceProvider;
 

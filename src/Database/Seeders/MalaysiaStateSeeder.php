@@ -1,6 +1,6 @@
 <?php
 
-namespace Bersian\MalaysiaState\Database\Seeders;
+namespace FreshCMS\MalaysiaState\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Artisan;

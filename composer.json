@@ -1,5 +1,5 @@
 {
-    "name": "bersian/malaysia-state",
+    "name": "freshcms/malaysia-state",
     "description": "This package will provide all over the state and postal code in malaysia",
     "type": "library",
     "license": "MIT",
@@ -11,14 +11,14 @@
     "authors": [
         {
             "name": "Satrya Wiguna",
-            "email": "satrya@nanopay.com"
+            "email": "satrya@freshcms.net"
         }
     ],
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Bersian\\MalaysiaState\\MalaysiaStateServiceProvider"
+                "FreshCMS\\MalaysiaState\\MalaysiaStateServiceProvider"
             ]
         }
     },
@@ -29,11 +29,11 @@
         ],
         "post-update-cmd": [
             "@php artisan migrate:refresh",
-            "@php artisan db:seed --class=Bersian\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
+            "@php artisan db:seed --class=FreshCMS\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
         ],
         "post-install-cmd": [
             "@php artisan migrate",
-            "@php artisan db:seed --class=Bersian\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
+            "@php artisan db:seed --class=FreshCMS\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
         ]
     }
 }

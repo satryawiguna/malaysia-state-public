@@ -1,6 +1,6 @@
 <?php
 
-use Bersian\MalaysiaState\Http\Controllers\Api\MalaysiaStateController;
+use FreshCMS\MalaysiaState\Http\Controllers\Api\MalaysiaStateController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api')->group(function () {

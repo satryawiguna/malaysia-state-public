@@ -1,6 +1,6 @@
 <?php
 
-namespace Bersian\MalaysiaState\Models;
+namespace FreshCMS\MalaysiaState\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
