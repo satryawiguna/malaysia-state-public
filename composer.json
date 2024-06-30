@@ -1,0 +1,39 @@
+{
+    "name": "bersian/malaysia-state",
+    "description": "This package will provide all over the state and postal code in malaysia",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bersian\\MalaysiaState\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Satrya Wiguna",
+            "email": "satrya@nanopay.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bersian\\MalaysiaState\\MalaysiaStateServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan migrate:refresh",
+            "@php artisan db:seed --class=Bersian\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
+        ],
+        "post-install-cmd": [
+            "@php artisan migrate",
+            "@php artisan db:seed --class=Bersian\\\\MalaysiaState\\\\Database\\\\Seeders\\\\MalaysiaStateSeeder"
+        ]
+    }
+}
